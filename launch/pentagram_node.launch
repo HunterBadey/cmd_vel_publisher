@@ -1,0 +1,5 @@
+<launch>
+    <!-- My Package launch file -->
+    <node pkg="cmd_vel_publisher" type="pentagram.py" name="pentagram_publisher"  output="screen">
+    </node>
+</launch>
