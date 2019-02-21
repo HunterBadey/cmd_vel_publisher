@@ -1,0 +1,5 @@
+<launch>
+    <!-- My Package launch file -->
+    <node pkg="cmd_vel_publisher" type="infinity.py" name="infinity_publisher2"  output="screen">
+    </node>
+</launch>
