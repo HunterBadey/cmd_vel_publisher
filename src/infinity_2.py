@@ -24,8 +24,6 @@ velocity = Twist()
 velocity.linear.x = 1
 velocity.angular.z = 0.5
 
-
-
 while not rospy.is_shutdown(): 
   pub.publish(velocity)
   sub = rospy.Subscriber ('/odom', Odometry, distance_calculator)
